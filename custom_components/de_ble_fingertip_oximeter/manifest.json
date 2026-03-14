@@ -1,0 +1,18 @@
+{
+  "domain": "de_ble_fingertip_oximeter",
+  "name": "DE BLE Fingertip Oximeter",
+  "codeowners": ["@de-andrei"],
+  "config_flow": true,
+  "dependencies": ["bluetooth"],
+  "documentation": "https://github.com/de-andrei/de_ble_fingertip_oximeter",
+  "issue_tracker": "https://github.com/de-andrei/de_ble_fingertip_oximeter/issues",  
+  "integration_type": "device",
+  "bluetooth": [
+    {
+      "service_uuid": "6e400001-b5a3-f393-e0a9-e50e24dcca9e",
+      "connectable": true
+    }
+  ],
+  "requirements": ["bleak>=0.20.2"],
+  "version": "1.0.0"
+}

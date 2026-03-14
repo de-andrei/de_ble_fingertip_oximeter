@@ -1,0 +1,19 @@
+{
+  "config": {
+    "flow_title": "Fingertip Oximeter",
+    "step": {
+      "user": {
+        "title": "Select Fingertip Oximeter",
+        "description": "Choose your fingertip oximeter from the list",
+        "data": {
+          "address": "Device"
+        }
+      }
+    },
+    "abort": {
+      "no_devices_found": "No fingertip oximeters found. Make sure the device is on and nearby.",
+      "not_supported_device": "This device is not a supported fingertip oximeter",
+      "already_configured": "This device is already configured"
+    }
+  }
+}
