@@ -12,5 +12,5 @@ PULSEOX_SERVICE_UUID = "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
 PULSEOX_CHAR_UUID = "6e400003-b5a3-f393-e0a9-e50e24dcca9e"
 
 # Update intervals
-SCAN_INTERVAL = timedelta(seconds=3)
+SCAN_INTERVAL = timedelta(seconds=30)  # Увеличили до 30 секунд
 CONNECT_TIMEOUT = 10
