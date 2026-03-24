@@ -13,4 +13,4 @@ PULSEOX_CHAR_UUID = "6e400003-b5a3-f393-e0a9-e50e24dcca9e"
 
 # Update intervals
 SCAN_INTERVAL = timedelta(seconds=10)
-CONNECT_TIMEOUT = 5
+CONNECT_TIMEOUT = 8
